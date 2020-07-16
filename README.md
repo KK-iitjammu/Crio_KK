@@ -31,6 +31,6 @@ python3 main.py
     ├── ios_client_handler.py                 # iOS client handler for user preferences
     ├── main.py                               # Calls the Android/iOS handler code for demonstration
     ├── requirements.txt                      
-    ├── user_preference.py                    # Function containing 
-    ├── user_preferences.json                 # Contains functions to update user preferences
+    ├── user_preference.py                    # Contains functions to update user preferences
+    ├── user_preferences.json                 # Contains sample user preferences data
     └── README.md
