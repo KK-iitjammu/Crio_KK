@@ -70,13 +70,13 @@ class UserPreference:
         if (self.__user_language is not None):
             user_preference['user_language'] = self.__user_language
 
-        with open('user_preferences.json', 'w') as outfile:
+        with open('oops_solution/user_preferences.json', 'w') as outfile:
             json.dump(user_preferences, outfile)
             outfile.write('\n')
 
     # Read the preferences for a user from a file.
     def _read_preferences_from_file(self):
-        with open('user_preferences.json') as inputfile:
+        with open('oops_solution/user_preferences.json') as inputfile:
             try:
                 user_preferences = json.load(inputfile)
                 return user_preferences

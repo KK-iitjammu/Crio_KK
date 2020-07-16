@@ -31,7 +31,7 @@ def update_user_country(user_name, user_country):
     user_preference['user_name'] = user_name
     user_preference['user_country'] = user_country
 
-    with open('user_preferences.json', 'w') as outfile:
+    with open('non_oops_solution/user_preferences.json', 'w') as outfile:
         json.dump(user_preferences, outfile)
         outfile.write('\n')
 
@@ -63,13 +63,13 @@ def update_user_language(user_name, user_language):
     user_preference['user_name'] = user_name
     user_preference['user_language'] = user_language
 
-    with open('user_preferences.json', 'w') as outfile:
+    with open('non_oops_solution/user_preferences.json', 'w') as outfile:
         json.dump(user_preferences, outfile)
         outfile.write('\n')
 
 # Read the preferences for a user from a file.
 def read_preferences_from_file():
-    with open('user_preferences.json') as inputfile:
+    with open('non_oops_solution/user_preferences.json') as inputfile:
         try:
             user_preferences = json.load(inputfile)
             return user_preferences
