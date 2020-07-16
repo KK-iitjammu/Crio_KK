@@ -1,4 +1,4 @@
-from exercise1_solution.user_preference import UserPreference
+from user_preference import UserPreference
 
 
 def recover_chat_backup_ios(username):
