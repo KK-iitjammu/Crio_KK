@@ -42,3 +42,4 @@ def change_user_language_android(user_name, user_country, user_language):
     else:
         raise Exception('Invalid country/language combination')
 
+
