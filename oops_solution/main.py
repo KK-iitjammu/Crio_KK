@@ -6,8 +6,8 @@ if __name__== "__main__":
     # In real world, these functions will be called from your Flask or Django server methods.
     # Don't worry about them for now - let's live in a simple world :)
 
-    change_user_country_android('luis', 'COUNTRY_FIJI')
-    change_user_country_ios('budha', 'COUNTRY_FIJI')
+    change_user_country_android('luis', 'COUNTRY_USA')
+    change_user_country_ios('budha', 'COUNTRY_INDIA')
 
     change_user_language_ios('luis', 'COUNTRY_USA', 'LANGUAGE_SPANISH')
     change_user_language_ios('budha', 'COUNTRY_INDIA', 'LANGUAGE_HINDI')
