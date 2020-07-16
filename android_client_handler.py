@@ -21,3 +21,11 @@ def change_user_country_android(user_name, user_country):
     # ...
     # Android specific code
     update_user_country(user_name, user_country)
+
+def change_user_language_android(user_name, user_language):
+    # Some Android specific code goes here.
+    # Android specific code
+    # ...
+    # ...
+    # Android specific code
+    update_user_language(user_name, user_language)

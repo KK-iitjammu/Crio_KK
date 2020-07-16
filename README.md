@@ -19,15 +19,11 @@ Verify by running the **main.py** function
 python3 main.py
 ```
 
-
-
-
-
 ## Project Files
 
     .
-    ├── non_oops_solution                     # Feature implementation without encapsulation
-    ├── oops_solution     /                   # Feature implementation with encapsulation in place
+    ├── non_oops_solution  /                  # Feature implementation without encapsulation
+    ├── oops_solution      /                  # Feature implementation with encapsulation in place
     ├── android_client_handler.py             # Android client handler for user preferences
     ├── ios_client_handler.py                 # iOS client handler for user preferences
     ├── main.py                               # Calls the Android/iOS handler code for demonstration

@@ -20,3 +20,10 @@ def change_user_country_ios(username, country):
     # ...
     # iOS specific code
     update_user_country(username, country)
+
+def change_user_language_ios(username, language):
+    # Some iOS specific code goes here.
+    # iOS specific code
+    # ...
+    # iOS specific code
+    update_user_language(username, language)
