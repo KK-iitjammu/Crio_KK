@@ -36,6 +36,6 @@ def change_user_language_android(user_name, user_country, user_language):
     # Android specific code
 
     # Client code doesn't really care about UserPreference functions.
-    # It just says update country.
+    # It just says update language.
     user_preference = UserPreference(user_name, user_country=user_country, user_language=user_language)
     user_preference.update_user_language()

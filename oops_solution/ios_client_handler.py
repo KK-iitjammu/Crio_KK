@@ -34,6 +34,6 @@ def change_user_language_ios(username, country, language):
     # iOS specific code
 
     # Client code doesn't really care about UserPreference functions.
-    # It just says update country.
+    # It just says update language.
     user_preference = UserPreference(username, user_country=country, user_language=language)
     user_preference.update_user_language()
