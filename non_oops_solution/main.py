@@ -9,6 +9,6 @@ if __name__== "__main__":
     change_user_country_android('luis', 'COUNTRY_USA')
     change_user_country_ios('budha', 'COUNTRY_INDIA')
 
-    change_user_language_ios('luis', 'COUNTRY_USA', 'LANGUAGE_SPANISH')
+    change_user_language_android('luis', 'COUNTRY_USA', 'LANGUAGE_SPANISH')
     change_user_language_ios('budha', 'COUNTRY_INDIA', 'LANGUAGE_HINDI')
     change_user_language_android('akash', 'COUNTRY_INDIA', 'LANGUAGE_ENGLISH')
