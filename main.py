@@ -1,5 +1,5 @@
-from android_client_handler import change_user_language_android, change_user_country_android
-from ios_client_handler import change_user_language_ios, change_user_country_ios
+from android_client_handler import change_user_country_android
+from ios_client_handler import change_user_country_ios
 
 if __name__== "__main__":
     # Call the android/iOS handler code to change user language/country etc.
