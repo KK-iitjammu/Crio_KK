@@ -11,7 +11,7 @@ git clone https://gitlab.crio.do/crio_bytes/me_encapsulation.git
 git clone git@gitlab.crio.do:crio_bytes/me_encapsulation.git
 ```
 
-If you don’t have Git already installed. Use this as a reference to help yourselves do that.
+If you don’t have Git already installed. Use [this](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/) as a reference to help yourselves do that.
 <br>
 
 Verify by running the **main.py** function
